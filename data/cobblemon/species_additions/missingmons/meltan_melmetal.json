@@ -1,0 +1,28 @@
+{
+    "target": "cobblemon:meltan",
+    "baseScale": 0.3,
+    "hitbox": {
+        "width": 0.4,
+        "height": 0.8,
+        "fixed": false
+    },
+    "evolutions": [
+        {
+            "id": "meltan_melmetal",
+            "variant": "level_up",
+            "result": "melmetal",
+            "consumeHeldItem": true,
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "itemCondition": "minecraft:anvil"
+                },
+                {
+                    "variant": "level",
+                    "minlevel": "60"
+                }
+            ],
+            "permanent": true
+        }
+    ]
+}
