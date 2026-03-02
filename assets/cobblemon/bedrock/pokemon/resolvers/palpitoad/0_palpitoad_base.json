@@ -1,19 +1,17 @@
 {
  "species": "cobblemon:palpitoad",
- "order": 1,
- "variations": [
-   {
-     "aspects": [],
-     "poser": "cobblemon:palpitoad",
-     "model": "cobblemon:palpitoad.geo",
-     "texture": "cobblemon:textures/pokemon/palpitoad/palpitoad.png",
-     "layers": []
-   },
-   {
-     "aspects": [
-       "shiny"
-     ],
-     "texture": "cobblemon:textures/pokemon/palpitoad/palpitoad_shiny.png"
-   }
- ]
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:agumon",
+      "model": "cobblemon:agumon.geo",
+      "texture": "cobblemon:textures/agumon/agumon.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/agumon/agumon_shiny.png"
+    }
+  ]
 }
