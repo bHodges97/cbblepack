@@ -1,0 +1,12 @@
+{
+  "target": "cobblemon:zekrom",
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "mega_showdown:zygarde_cell",
+        "quantityRange": "2-6"
+      }
+    ]
+  }
+}

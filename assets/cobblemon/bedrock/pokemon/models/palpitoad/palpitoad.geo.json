@@ -1,0 +1,92 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.palpitoad",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "palpitoad",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "palpitoad",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{"origin": [-3.5, 9.85, -3.6], "size": [7, 2, 0], "uv": [0, 41]},
+						{"origin": [-4.5, 7, -3.5], "size": [9, 8, 7], "uv": [0, 15]},
+						{"origin": [4, 9, -2.5], "size": [2, 5, 5], "uv": [38, 31]},
+						{"origin": [6, 9.5, -2], "size": [1, 4, 4], "uv": [46, 0]},
+						{"origin": [-7, 9.5, -2], "size": [1, 4, 4], "uv": [36, 0]},
+						{"origin": [-6, 9, -2.5], "size": [2, 5, 5], "uv": [24, 31]}
+					]
+				},
+				{
+					"name": "headlump",
+					"parent": "head",
+					"pivot": [0, 15, -3],
+					"cubes": [
+						{"origin": [-3, 12, -6], "size": [6, 4, 6], "pivot": [0, 15, -3], "rotation": [45, 0, 0], "uv": [0, 31]},
+						{"origin": [-2.5, 14, -5.5], "size": [5, 4, 5], "pivot": [0, 15, -3], "rotation": [45, 0, 0], "uv": [31, 13]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "palpitoad",
+					"pivot": [0, 1, 0],
+					"cubes": [
+						{"origin": [-5, 1, -4], "size": [10, 7, 8], "uv": [0, 0]},
+						{"origin": [4, 5, -2], "size": [2, 2, 2], "uv": [44, 8]},
+						{"origin": [2, 5, 3], "size": [2, 2, 2], "uv": [40, 27]},
+						{"origin": [-4, 5, 3], "size": [2, 2, 2], "uv": [32, 27]},
+						{"origin": [-6, 5, -2], "size": [2, 2, 2], "uv": [36, 8]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body",
+					"pivot": [0, 1, 4],
+					"cubes": [
+						{"origin": [-1.5, 1.1, 3], "size": [3, 1, 3], "uv": [0, 43]}
+					]
+				},
+				{
+					"name": "tail2",
+					"parent": "tail",
+					"pivot": [0, 2, 6],
+					"cubes": [
+						{"origin": [-2, 1.1, 6], "size": [4, 1, 4], "uv": [0, 47]}
+					]
+				},
+				{
+					"name": "feet",
+					"parent": "palpitoad",
+					"pivot": [0, 1, 0]
+				},
+				{
+					"name": "footL",
+					"parent": "feet",
+					"pivot": [0, 1, 1],
+					"cubes": [
+						{"origin": [2, 0, -2], "size": [3, 1, 4], "uv": [46, 22], "mirror": true}
+					]
+				},
+				{
+					"name": "footR",
+					"parent": "feet",
+					"pivot": [0, 1, 2],
+					"cubes": [
+						{"origin": [-5, 0, -2], "size": [3, 1, 4], "uv": [32, 22]}
+					]
+				}
+			]
+		}
+	]
+}

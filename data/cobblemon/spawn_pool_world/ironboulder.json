@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ironboulder_1",
+      "pokemon": "ironboulder",
+      "presets": [ "natural" ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "50",
+      "weight": 2,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [ "#cobblemon:is_mountain" ]
+      }
+    }
+  ]
+}

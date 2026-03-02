@@ -1,0 +1,44 @@
+{
+ "head": "head",
+ "portraitScale": 1.5,
+ "portraitTranslation": [ 0, -0.2, 0 ],
+ "profileScale": 0.7,
+ "profileTranslation": [ 0, 0.6, 0 ],
+ "faint": "bedrock(palpitoad, faint)",
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE"
+     ],
+     "animations": [
+       "look",
+       "bedrock(palpitoad, ground_idle)"
+     ]
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [ "WALK" ],
+     "animations": [ "bedrock(palpitoad, ground_walk)" ]
+   },
+   "swimming": {
+     "poseTypes": ["SWIM"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('palpitoad', 'water_swim')"
+     ]
+   },
+   "floating": {
+     "poseTypes": ["FLOAT"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('palpitoad', 'ground_idle')"
+     ]
+ }
+}
+}
